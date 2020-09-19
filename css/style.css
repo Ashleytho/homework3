@@ -77,10 +77,12 @@ tr:nth-child(even) {
   background: #D1D1D1;
 }
 
-td:hover {
+tr:hover {
   background-color: rgba(126,8,48,.25);
 }
-
+.colhead :hover {
+  background-color: rgba(126,8,48,.25);
+}
 *{
   text-align: center;
 }
