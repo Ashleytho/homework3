@@ -72,7 +72,7 @@ td{
   border-top: 2px solid #000000;
 }
 
-tr:nth-child(odd) {
+tr:nth-child(even) {
   background: #D1D1D1;
 }
 
@@ -91,6 +91,12 @@ thead tr:first-child th:first-child{
 }
 thead tr:first-child th:last-child{
   border-top-right-radius: 10px;
+}
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 10px;
 }
 
 
