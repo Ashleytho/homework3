@@ -77,9 +77,10 @@ tr:nth-child(even) {
   background: #D1D1D1;
 }
 
-tbody tr:hover {
-  background-color: rgba(126,8,48,.25);
+tr:hover {
+  background-color: rgba(126,8,48,0.25);
 }
+
 *{
   text-align: center;
 }
@@ -107,5 +108,6 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  margin-left: auto;
 }
 
