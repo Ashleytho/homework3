@@ -14,7 +14,7 @@ body{
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
   background-color: #DDDDDD;
-  background-image: url("/images/pigeon-background.JPEG");
+  background-image: url("/images/pigeon-background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ table{
 
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   text-transform: uppercase;
@@ -107,6 +107,5 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
-  left: auto;
 }
 
